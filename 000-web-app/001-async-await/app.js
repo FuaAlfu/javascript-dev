@@ -3,6 +3,19 @@ async - await
 
 */
 
+const example = async () => {
+    return 'hi'
+}
+
+async function someFunc (){
+    const result = await example();
+    console.log(result);
+}
+
+//invoke func
+someFunc()
+
+//----------------------
 const users = [
     {id:1, name: 'fua'},
     {id:2, name: 'mua'},

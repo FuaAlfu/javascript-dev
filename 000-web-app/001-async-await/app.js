@@ -42,7 +42,7 @@ function getUser(name) {
 
 function getArticles(userId){
     return new Promise((resolve, reject) =>{
-        const userArticles = articles.find(user) => user.userId === userId)
+        const userArticles = articles.find((user) => user.userId === userId)
         if(userArticles){
             return resolve(userArticles.articles)
         }else{

@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 130vh;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #777;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    color: #fff;
+    background-color: brown;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    /*  margin: 0 auto -> remove it during the test */
+    margin: 0 auto;
+    margin-top: 4rem;
+    /* for testing in console */
+    /* margin-left: -1rem; */
+}

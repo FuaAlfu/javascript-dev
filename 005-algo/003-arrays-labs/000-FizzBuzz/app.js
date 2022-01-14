@@ -27,8 +27,30 @@ const fizzBuzz = () =>{
    console.log(output);
 }
 fizzBuzz()
+console.log("--");
 /*
 fizzBuzz()
 fizzBuzz()
 
 */
+
+function fizzBuzzS(){
+    for(let i = 0; i < myCounting; i++){
+        switch(count) {
+              case count % 3 == 0 && count % 5 == 0:
+                output.push("fizzBuzz")
+                break;
+              case count % 3 == 0:
+                output.push("fuzz");
+                break;
+              case count % 5 == 0:
+                 output.push("buzz");
+                break;
+              default:
+                output.push(count);
+        }
+        count++
+    }
+    console.log(output);
+}
+fizzBuzzS()

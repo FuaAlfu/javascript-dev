@@ -54,3 +54,15 @@ function fizzBuzzS(){
     console.log(output);
 }
 fizzBuzzS()
+
+const fizzBuzzo = () =>{
+    for(let i = 0; i < myCounting; i++){
+        count % 3 == 0 && count % 5 == 0 ? output.push("fizzBuzz")
+         : count % 3 == 0 ? output.push("fuzz")
+         : count % 5 == 0 ? output.push("buzz")
+         : output.push(count);
+         count++
+    }
+    console.log(output);
+}
+fizzBuzzo()

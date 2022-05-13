@@ -1,3 +1,4 @@
+import {generateAnotherRandomNumbers} from './a';
 function generateRandomNumbers():number{
     let minNumber:number = 0;
     let maxNumber:number = 1000;
@@ -6,4 +7,5 @@ function generateRandomNumbers():number{
 	return Math.floor(Math.random() * (max - min + 1)) + min; 
 }
 
+console.log(generateAnotherRandomNumbers(100));
 console.log(generateRandomNumbers());

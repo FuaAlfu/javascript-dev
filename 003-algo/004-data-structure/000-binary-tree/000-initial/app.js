@@ -18,3 +18,5 @@ a.right = c;
 b.left = d;
 b.right = e;
 c.right = f;
+
+console.log(f); //for testing
